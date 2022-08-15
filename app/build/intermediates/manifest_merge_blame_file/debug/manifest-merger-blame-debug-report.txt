@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mcvicar.spacewar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->H:\SpaceWar\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->H:\SpaceWar\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->H:\SpaceWar\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->H:\SpaceWar\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\kiera\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->H:\SpaceWar\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->H:\SpaceWar\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->H:\SpaceWar\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->H:\SpaceWar\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+20-->H:\SpaceWar\app\src\main\AndroidManifest.xml:11:9-76
+21        <activity
+21-->H:\SpaceWar\app\src\main\AndroidManifest.xml:12:9-21:20
+22            android:name="com.mcvicar.spacewar.StartUp"
+22-->H:\SpaceWar\app\src\main\AndroidManifest.xml:13:13-36
+23            android:exported="true"
+23-->H:\SpaceWar\app\src\main\AndroidManifest.xml:14:13-36
+24            android:screenOrientation="portrait" >
+24-->H:\SpaceWar\app\src\main\AndroidManifest.xml:15:13-49
+25            <intent-filter>
+25-->H:\SpaceWar\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->H:\SpaceWar\app\src\main\AndroidManifest.xml:17:17-69
+26-->H:\SpaceWar\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->H:\SpaceWar\app\src\main\AndroidManifest.xml:19:17-77
+28-->H:\SpaceWar\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->H:\SpaceWar\app\src\main\AndroidManifest.xml:22:9-24:20
+32            android:name="com.mcvicar.spacewar.MainActivity"
+32-->H:\SpaceWar\app\src\main\AndroidManifest.xml:22:19-47
+33            android:screenOrientation="portrait" >
+33-->H:\SpaceWar\app\src\main\AndroidManifest.xml:23:13-49
+34        </activity>
+35        <activity
+35-->H:\SpaceWar\app\src\main\AndroidManifest.xml:25:9-27:20
+36            android:name="com.mcvicar.spacewar.GameOver"
+36-->H:\SpaceWar\app\src\main\AndroidManifest.xml:25:19-43
+37            android:screenOrientation="portrait" >
+37-->H:\SpaceWar\app\src\main\AndroidManifest.xml:26:13-49
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kiera\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kiera\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+42            android:authorities="com.mcvicar.spacewar.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kiera\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kiera\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kiera\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kiera\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\kiera\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kiera\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kiera\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\kiera\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+50        </provider>
+51    </application>
+52
+53</manifest>

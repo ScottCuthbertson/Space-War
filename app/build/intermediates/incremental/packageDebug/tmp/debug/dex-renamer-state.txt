@@ -1,0 +1,4 @@
+#Fri Apr 15 16:24:16 BST 2022
+base.0=H\:\\SpaceWar\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
